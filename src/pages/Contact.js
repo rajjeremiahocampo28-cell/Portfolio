@@ -13,7 +13,7 @@ export default function Contact() {
           const fd = new FormData(e.currentTarget);
           const subject = encodeURIComponent(fd.get('subject') || '');
           const body = encodeURIComponent(`Name: ${fd.get('name')}\n\n${fd.get('message')}`);
-          window.location.href = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+          window.location.href = `mailto:rajjeremiah.ocampo.28@gmail.com?subject=${subject}&body=${body}`;
         }}>
           <div className="row">
             <input name="name" placeholder="Your name" required />
