@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="page page-contact">
       <div className="container">
         <h2>Contact</h2>
-        <p>If you'd like to work together — email me at <a href="mailto:rajjeremiah.ocampo.28@gmail.com">youremail@example.com</a></p>
+        <p>If you'd like to work together — email me at <a href="mailto:rajjeremiah.ocampo.28@gmail.com">rajjeremiah.ocampo.28@gmail.com</a></p>
 
         <form className="contact-form" onSubmit={(e) => {
           e.preventDefault();
