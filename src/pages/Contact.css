@@ -1,0 +1,103 @@
+/* === CONTACT PAGE === */
+
+.page-contact {
+  padding: 120px 0;
+  background: #0f1624;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Title */
+.page-contact h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+/* Subtitle */
+.page-contact p {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.85;
+  margin-bottom: 40px;
+}
+
+.page-contact a {
+  color: #49c8ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.page-contact a:hover {
+  text-decoration: underline;
+}
+
+/* === FORM === */
+
+.contact-form {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #1a2235;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 200, 255, 0.15);
+  border: 1px solid rgba(0, 200, 255, 0.15);
+}
+
+.contact-form .row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  background: #0d1220;
+  color: #fff;
+  border: 1px solid rgba(0, 200, 255, 0.2);
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.25s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #49c8ff;
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.35);
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* Submit Button */
+.btn-primary {
+  background: linear-gradient(90deg, #00d1ff, #2f7df4);
+  border: none;
+  padding: 14px 26px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 15px;
+  width: 100%;
+  transition: 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 200, 255, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(0, 200, 255, 0.55);
+}
+
+.project-btn {
+  display: inline-block;
+  text-decoration: none;
+}

@@ -1,0 +1,126 @@
+/* ==== HOME SECTION MAIN LAYOUT ==== */
+.home-container {
+  background: #0d0f18;
+  color: white;
+  min-height: 100vh;
+  padding: 80px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+/* ==== LEFT SIDE TEXT ==== */
+.home-left h3 {
+  font-size: 22px;
+  opacity: 0.7;
+}
+
+.home-left h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.home-left h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #12e6e4;
+  text-shadow: 0 0 10px #12e6e4;
+}
+
+.home-left p {
+  max-width: 430px;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+/* ==== SOCIAL ICONS ==== */
+.socials {
+  margin-bottom: 25px;
+}
+
+.socials a {
+  font-size: 22px;
+  margin-right: 15px;
+  color: #12e6e4;
+  text-shadow: 0 0 10px #12e6e4;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  transform: translateY(-4px);
+}
+
+/* ==== BUTTONS ==== */
+.buttons {
+  display: flex;
+  gap: 18px;
+}
+
+.btn-primary {
+  background: #12e6e4;
+  padding: 12px 25px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 600;
+  color: #000;
+  box-shadow: 0 0 12px #12e6e4;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 18px #12e6e4;
+}
+
+.btn-outline {
+  border: 2px solid #12e6e4;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  color: #12e6e4;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: #12e6e4;
+  color: black;
+  box-shadow: 0 0 18px #12e6e4;
+}
+
+/* ==== RIGHT SIDE HEX IMAGE ==== */
+.home-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexagon {
+  width: 330px;
+  height: 380px;
+  background: #12e6e4;
+  clip-path: polygon(
+    25% 0%, 75% 0%, 100% 50%,
+    75% 100%, 25% 100%, 0% 50%
+  );
+  padding: 12px;
+  box-shadow: 0 0 20px #12e6e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hexagon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inherit;
+  border-radius: 8px;
+}

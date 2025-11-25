@@ -1,0 +1,87 @@
+/* === About Page Styling === */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  background: #0e0f1b;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Wrapper */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* === Profile Image with Neon Hexagon Frame === */
+.image-box {
+  position: relative;
+  width: 330px;
+  height: 380px;
+  clip-path: polygon(
+    50% 0%, 93% 25%, 93% 75%,
+    50% 100%, 7% 75%, 7% 25%
+  );
+  background: #00eaff;
+  padding: 4px;
+  transition: 0.3s ease;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inherit;
+}
+
+/* Glow effect */
+.image-box:hover {
+  box-shadow: 0 0 25px #00eaff, 0 0 50px #00eaff;
+}
+
+/* Text Area */
+.about-text {
+  max-width: 500px;
+}
+
+.about-text h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.about-text .highlight {
+  color: #00eaff;
+  font-weight: 700;
+}
+
+.about-text p {
+  line-height: 1.7;
+  font-size: 17px;
+  color: #c7c7c7;
+}
+
+/* Button */
+.about-text button {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: #00eaff;
+  border: none;
+  color: #000;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.about-text button:hover {
+  background: #00bcd1;
+  box-shadow: 0 0 15px #00eaff;
+}
